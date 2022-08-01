@@ -12,10 +12,15 @@ import Header from "./components/Header"
 function App() {
   return (
     <div className="App">
-      <Header /> 
+      <Header/> 
     </div>
   );
 }
+
+
+Por alguma rasão o material icon design não funciona, não consigo desistalar ele para reinstalar novamente. Vou procurar mais coisas para descobrir como fazer isso.
+
+HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA EU CONSEGUI PQ********** putz que dahora!
 
 export default App;
 
