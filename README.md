@@ -20,7 +20,9 @@ function App() {
 
 Por alguma rasão o material icon design não funciona, não consigo desistalar ele para reinstalar novamente. Vou procurar mais coisas para descobrir como fazer isso.
 
-HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA EU CONSEGUI PQ********** putz que dahora!
+HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA EU CONSEGUI putz que dahora!
+
+Calma que estou procurando o erro. Não sei por que os textos que eu deixei no site nao aparecem
 
 export default App;
 

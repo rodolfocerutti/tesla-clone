@@ -6,6 +6,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .item__container{
@@ -22,10 +23,10 @@
     font-size: 34px;
     color: #393c41;
     align-items: center;
-    flex: 1
+    flex: 1;
 }
 
-.item__texDesc{
+.item__textDesc{
     font-weight: 200;
     font-size: 14px;
 }

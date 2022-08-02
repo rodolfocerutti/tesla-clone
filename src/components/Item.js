@@ -1,9 +1,10 @@
 import React from "react"
 import Button from "./Button"
 import './Item.css'
+
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const Item = ({title, desc, backgroundImg, leftBtnText, leftBtnlink, rightBtnTxt, rightBtnLink, twoButtons, first}) => {
+const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnlink, rightBtnTxt, rightBtnLink, twoButtons, first}) => {
     return (
         <div className="item" style={{
             backgroundImage: `url(${backgroundImg})`
@@ -17,7 +18,7 @@ const Item = ({title, desc, backgroundImg, leftBtnText, leftBtnlink, rightBtnTxt
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                        <Button imp='primary' text={leftBtnlink} link={leftBtnlink}/>
+                        <Button imp='primary' text={leftBtnTxt} link={leftBtnlink} />
                         
                         {twoButtons && (
                            <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink} /> 

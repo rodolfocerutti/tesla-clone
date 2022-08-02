@@ -17,6 +17,17 @@ function App() {
       <Header />
       <div className="app__itemsContainer">
         <Item
+          title='Lowest Cost Solar Panels in America'
+          desc='Money-back guarantee'
+          descLink=''
+          backgroundImg={SolarPanels}
+          leftBtnTxt='ORDER NOW'
+          leftBtnLink=''
+          rightBtnTxt='LEARN MORE'
+          TwoButtons='true'
+          first
+        />
+        <Item
           title='Model S'
           desc='$69,420'
           descLink=''
@@ -26,7 +37,6 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           TwoButtons='true'
-          first
         />
         <Item
           title='Model 3'
@@ -59,16 +69,6 @@ function App() {
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
-          TwoButtons='true'
-        />
-        <Item
-          title='Lowest Cost Solar Panels in America'
-          desc='Money-back guarantee'
-          descLink=''
-          backgroundImg={SolarPanels}
-          leftBtnTxt='ORDER NOW'
-          leftBtnLink=''
-          rightBtnTxt='LEARN MORE'
           TwoButtons='true'
         />
         <Item
